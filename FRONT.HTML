@@ -1,0 +1,128 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONTEND MASTERS</title>
+    <style>
+
+            
+    
+          *{
+              border: 0;
+              margin: 0;
+          }
+        .browndiv{
+            display: flex;
+            justify-content: space-between;
+            background-color: brown;
+            padding: 20px 100px 20px 100px;
+            border-bottom: 20px solid orangered;
+        }
+
+        li{
+            padding-right: 20px;
+        }
+
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        li a{
+           text-decoration: none;
+           font-size: 20px;
+           color: white; 
+        }
+        li button{
+            background-color: rgb(230, 47, 15);
+            padding: 10px 25px 10px 25px;
+            border-radius: 25px;
+            border: none;
+        }
+        .Frontend{
+            color: white;
+            font-family:  Calibri;
+        }
+       
+        .Master{
+            color: tomato;
+            font-family: script MT Bold;
+        }
+        body{
+            background-color: rgb(83, 79, 79);
+            
+        }
+        .User name or Email{
+            color: white;
+            border-spacing: 30px;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .box2{
+        width: 500px;
+        padding: 30px 15px 30px 15px; 
+        position: center;
+        top: 200px;
+        left: 200px;
+        
+        
+    }
+    button{
+        background-color: rgb(230, 47, 15);
+            padding: -10px -25px -10px -25px;
+            border-radius: 25px;
+            border: none;
+    }
+    .form{
+        padding: 20PX;
+        position: absolute;
+
+    }
+
+    </style>
+</head>
+<body>
+    <!-- begining of the brown div-->
+      <div class="mian">
+            <div class="browndiv">
+                <div class="frontendmaster">
+                  <h1><b class="Frontend">Frontend </b> <i class="Master">Master</i></h1>  
+                </div>
+                <div class="navlinks">
+                    <ul>
+                        <li><a href="#">Coutses</a></li>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><button><a href="#">Join Now</a></button></li>   
+                    </ul>
+                </div>
+            </div>
+      <!--end of the brown div-->
+
+      <!--begining of the form div-->
+                    <div>
+               <center>
+            <form class="box2" action="login.html" method="post">
+                <h3>User Name or Password</h3>
+                <input type="text" name="" placeholder="Example@gmail.com" id="username">
+                <h3>Password</h3>
+                <input type="password" name="" placeholder="********" id="password">
+
+                    <div>
+                        <input type="checkbox"Remember Me>Remember Me   
+                    </div>
+
+                    <div claas 1>
+                        <button><a herf="#">Log In</a></button>Forgot Password
+                    </div> 
+            </form>
+                 </center>   
+                </div>
+            <!-- end of form div-->
+       
+</body>
+</html>
