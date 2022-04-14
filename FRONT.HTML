@@ -51,6 +51,7 @@
         }
         body{
             background-color: rgb(83, 79, 79);
+    
             
         }
         .User name or Email{
@@ -61,27 +62,59 @@
             margin: 0;
             padding: 0;
         }
-        .box2{
-        width: 500px;
-        padding: 30px 15px 30px 15px; 
-        position: center;
-        top: 200px;
-        left: 200px;
-        
-        
-    }
     button{
         background-color: rgb(230, 47, 15);
             padding: -10px -25px -10px -25px;
             border-radius: 25px;
             border: none;
     }
-    .form{
-        padding: 20PX;
-        position: absolute;
+     
+        form{
+            width: auto;
+            padding: 100px;
+        
+        }
+        .box{
+            padding: 10px 15px 10px 15px;
+            width: 500px;
+        }
+        .box2{
+            padding: 10px 15px 10px 15px;
+            width: 500px;
+        }
+       .button2{
+           padding: 5px 10px 5px 10px;
+            
+       }
+       .footend{
+           color: white;
+           font-family: Calibri;
+       }
+       
+       .inerdiv{
+        display: flex;
+            justify-content: flex-start;
+            background-color: black;
+            padding: 30px 100px 30px 100px;
+            border-bottom: 200px solid black;
+       }
+       .footerm{
+           color: red;
+           font-family: scrpit MT bold;
+       }
+       .usename{
+          border: 0;
+          background: none;
+          display: block;
+          margin: 20px auto;
+          text-align: left;
 
-    }
-
+       }
+       .centered{
+            align-items: right;
+       }
+       
+    
     </style>
 </head>
 <body>
@@ -89,11 +122,11 @@
       <div class="mian">
             <div class="browndiv">
                 <div class="frontendmaster">
-                  <h1><b class="Frontend">Frontend </b> <i class="Master">Master</i></h1>  
+                  <h1><b class="Frontend">Frontend </b> <i class="Master">Masters</i></h1>  
                 </div>
                 <div class="navlinks">
                     <ul>
-                        <li><a href="#">Coutses</a></li>
+                        <li><a href="#">Courses</a></li>
                         <li><a href="#">Learn</a></li>
                         <li><a href="#">Pricing</a></li>
                         <li><a href="#">Login</a></li>
@@ -104,25 +137,56 @@
       <!--end of the brown div-->
 
       <!--begining of the form div-->
-                    <div>
-               <center>
-            <form class="box2" action="login.html" method="post">
-                <h3>User Name or Password</h3>
-                <input type="text" name="" placeholder="Example@gmail.com" id="username">
-                <h3>Password</h3>
-                <input type="password" name="" placeholder="********" id="password">
 
-                    <div>
-                        <input type="checkbox"Remember Me>Remember Me   
-                    </div>
+           <div class="usename">
+      <form>
+            
+            <div class="centered">
+         <label for="username">Username or Email</label><br><br> 
+        </div>
+         <input class="box" id="username" name="username" type="text" placeholder="Username or Email" value="" title="Please enter your username or email."><br><br>
+         
+          <label for="password">Password</label><br><br>
+          <input class="box2" id="password" name="password" type="password" placeholder="Password" title="Please enter your password.">
+          
+    
+          <label for="remember"><br><br>
+            <input class="remember" id="remember" name="remember" type="checkbox">
+            Remember Me
+          </label><br>
 
-                    <div claas 1>
-                        <button><a herf="#">Log In</a></button>Forgot Password
-                    </div> 
-            </form>
-                 </center>   
-                </div>
+          <button class="button2" type="submit" class="Button ButtonRed ButtonLarge"><br>
+            Log In
+          </button>
+    
+          <a class="recover" href="/recover-password/">Forgot your password?</a><br><br>
+        
+      </form>
+    </div>   
             <!-- end of form div-->
+
+            <!--beginging of the footer div-->
+            <footer>
+            <div class="footer">
+                <div class="inerdiv">
+                    <div class="frontendmasterfooter">
+                      <h1><b class="footend">Frontend </b> <i class="footerm">Masters</i></h1>  
+                    </div>
+                    <div class="navlinksfooter">
+                        <ul class="two">
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Learn</a></li>
+                            <li><a href="#">Teachers</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Join Now</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+            <!--end of the footer div-->
        
 </body>
 </html>
