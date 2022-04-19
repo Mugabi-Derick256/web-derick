@@ -18,7 +18,7 @@
             display: flex;
             justify-content: space-between;
             background-color: brown;
-            padding: 20px 100px 20px 100px;
+            padding: 20px 88px 20px 88px;
             border-bottom: 20px solid orangered;
         }
 
@@ -77,11 +77,11 @@
         }
         .box{
             padding: 10px 15px 10px 15px;
-            width: 500px;
+            width: 400px;
         }
         .box2{
             padding: 10px 15px 10px 15px;
-            width: 500px;
+            width: 400px;
         }
        .button2{
            padding: 5px 10px 5px 10px;
@@ -96,34 +96,30 @@
         display: flex;
             justify-content: flex-start;
             background-color: black;
-            padding: 30px 100px 30px 100px;
-            border-bottom: 200px black;
-           
+            padding: 10px 20px 10px 20px;
        }
        .footerm{
            color: red;
            font-family: scrpit MT bold;
        }
-       .usename{
-          border: 0;
-          background: none;
-          display: block;
-          margin: 20px auto;
-          text-align: center;
-       }
-       .imagediv{
-           background-color: black;
-       }
-       .linkin{
-           background-color: black;
+       .username{
+         font-size: 18px;
+         padding-left: 200px;
+         padding-right: 200px;
+         margin-left: 260px;
+         margin-right: 4px;
        }
        .word{
            background-color: black;
            color: aliceblue;
        }
     .final{
-        align-items: left;
         color: brown;
+        padding-left: 70%;
+        
+    }
+    .imagediv{
+        background-color: black;
     }
        
       
@@ -152,26 +148,25 @@
 
            <div class="usename">
       <form>
-            
-            <div class="centered">
-         <label for="username">Username or Email</label><br><br> 
-        </div>
-         <input class="box" id="username" name="username" type="text" placeholder="Username or Email" value="" title="Please enter your username or email."><br><br>
-         
-          <label for="password">Password</label><br><br>
-          <input class="box2" id="password" name="password" type="password" placeholder="Password" title="Please enter your password.">
-          
-    
-          <label for="remember"><br><br>
-            <input class="remember" id="remember" name="remember" type="checkbox">
-            Remember Me
-          </label><br>
-
-          <button class="button2" type="submit" class="Button ButtonRed ButtonLarge"><br>
-            Log In
-          </button>
-    
-          <a class="recover" href="/recover-password/">Forgot your password?</a><br><br>
+            <div class="username">
+                <div>
+                    <label for="username">Username or Email</label><br><br> 
+                   </div>
+                    <input class="box" id="username" name="username" type="text" placeholder="Username or Email" value="" title="Please enter your username or email."><br><br>
+                    
+                     <label for="password">Password</label><br><br>
+                     <input class="box2" id="password" name="password" type="password" placeholder="Password" title="Please enter your password.">
+                     
+               
+                     <label for="remember"><br><br>
+                       <input class="remember" id="remember" name="remember" type="checkbox">
+                       Remember Me
+                     </label><br>
+           
+                     <button class="button2" type="submit">Log In</button>
+               
+                     <a class="recover" href="/recover-password/">Forgot your password?</a><br><br>
+            </div>  
         
       </form>
     </div>   
@@ -179,42 +174,44 @@
 
             <!--beginging of the footer div-->
             <footer>
-            <div class="footer">
+                
                 <div class="inerdiv">
                     <div class="frontendmasterfooter">
                       <h1><b class="footend">Frontend </b> <i class="footerm">Masters</i></h1>  
                     </div>
                     <div class="navlinksfooter">
                         <ul class="two">
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Learn</a></li>
-                            <li><a href="#">Teachers</a></li>
-                            <li><a href="#">Guides</a></li>
-                            <li><a href="#">Pricing</a></li>
-                            <li><a href="#">Login</a></li>
-                            <li><a href="#">Join Now</a></li>
-                            <li><a href="#">FAQ</a></li>
+                            <li><a href="http://frontendmasters.com/courses/">Courses</a></li>
+                            <li><a href="http://frontendmasters.com/Learn/">Learn</a></li>
+                            <li><a href="http://frontendmasters.com/Teachers/">Teachers</a></li>
+                            <li><a href="http://frontendmasters.com/Guides/">Guides</a></li>
+                            <li><a href="http://frontendmasters.com/Pricing/">Pricing</a></li>
+                            <li><a href="file:///C:/Users/Derrick%20Mugabi/Desktop/web-derick/FRONT.HTML">Login</a></li>
+                            <li><a href="http://frontendmasters.com/Join Now/">Join Now</a></li>
+                            <li><a href="http://frontendmasters.com/FAQ/">FAQ</a></li>
                         </ul>
                     </div>
                 </div>
+                <div class="imagediv">
+                    <div> 
+                        <a href="https://www.applestore.com" class="app2"><img src="app.JPG" id="log"/></a>
+                        <a href="https://www.playstore.com"><img src="play.JPG" id="log"/></a>
+                    </div>
+                    <div>
+                        <a href="https://www.twitter.com"><img src="twitter2.JPG" width="35px" height="35px" id="log"/></a>
+                        <a href="https://www.linkedin.com"><img src="in.JPG" width="35px" height="35px" id="log"/></a>
+                        <a href="https://www.facebook.com"><img src="facebook.JPG" width="35px" height="35px" id="log"/></a>
+                        <a href="https://www.instagram.com"><img src="inster.JPG" width="35px" height="35px" id="log"/></a>
+                    </div>
+                </div>
                 
-                <div class="imagediv"> 
-                    <a href="https://www.appstore.com" class="app2"><img src="app.JPG" id="log"/></a>
-                    <a href="https://www.playstore.com"><img src="play.JPG" id="log"/></a>
-                </div>
-                <div class="linkin">
-                    <a href="https://www.twitter.com"><img src="twitter2.JPG" id="log"/></a>
-                    <a href="https://www.linkedin.com"><img src="in.JPG" id="log"/></a>
-                    <a href="https://www.facebook.com"><img src="facebook.JPG" id="log"/></a>
-                    <a href="https://www.instagram.com"><img src="inster.JPG" id="log"/></a>
-                </div>
                 <div class="word">
                     <p>Frontend Masters is proudly made in Minneapolis, MU</p>
-                    <center> <div class="final">
-                        <p>Email:support@frontendmasters.com</p>
+                     <div class="final">
+                        <a href="https://www.gmail.com"><p>Email:support@frontendmasters.com</p></a>
                         <p>©2022 Frontend Masters.Terms of Service.Privacy Policy</p>
-                    </div>
-                </center>
+                    </div> 
+                
                    
                 </div>
                
