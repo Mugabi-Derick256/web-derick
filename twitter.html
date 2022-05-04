@@ -20,6 +20,7 @@
         .formdiv{
             /* justify-content: space-between; */
             margin: 20px;
+            flex-basis: 50%;
             
         }
         .happening{
@@ -27,7 +28,8 @@
             text-size-adjust: 50px;
         }
         .links{
-            color: azure;
+            color: rgb(81, 81, 82);
+            
         }
         .or{
             color: azure;
@@ -38,8 +40,9 @@
         ul{
             display: flex;
             list-style: none;
-            color: azure;
+            color: rgb(78, 82, 82);
             justify-content: space-between;
+        
         }
         body{
             background-color: black;
@@ -48,17 +51,28 @@
             padding: 10px 15px 10px 15px;
             border-radius: 50px;
             width: 350px;
+            background-color: white;
+            cursor: pointer;
+            
+        }
+        .button1 a:hover{
+                color: grey;
+                text-decoration-color: blue;
+               
+
         }
         .button2{
             padding: 10px 15px 10px 15px;
             border-radius: 50px;
             width: 350px;
+            cursor: pointer;
         }
         .button3{
             padding: 10px 15px 10px 15px;
             border-radius: 50px;
             width: 350px;
             background-color: rgb(99, 99, 245);
+            cursor: pointer;
         }
         .button4{
             padding: 10px 20px 10px 20px;
@@ -66,7 +80,29 @@
             width: 350px;
             background-color: black;
             color: blue;
+            cursor: pointer;
         }
+        .or{
+                justify-content: center;
+                padding-left: 100px;
+                padding-right: 90px;
+        }
+        .imagediv{
+            flex-basis: 50%;
+        }
+        h2{
+            width: 50%;
+            font-size: 12px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        h1{
+            font-size: 65px;
+        }
+    .links2 a:hover{
+       color: rgb(72, 167, 184);
+        text-decoration: none;
+    }
+       
        
     
     </style>
@@ -82,7 +118,7 @@
         <!--begining of form div-->
         <form action="">
             <div class="formdiv">
-                <img src="log2.JPG" alt="log"><br><br>
+                <img src="log2.JPG" alt="log"><br>
 
                <div class="happening">
                 <h1>
@@ -98,9 +134,8 @@
                 </button><br><br>
 </a>
                
-                <button class="button2">
-                    <img src="apple.JPG" alt="log">Sign with Apple
-                </button>
+                <a href="#"><button class="button2"><img src="apple.JPG" alt="log">Sign with Apple</button></a>
+               
                </div>
                
                 <div class="or">
@@ -115,10 +150,10 @@
                 </div>
                 
                <div class="links">
-                <p>
+                <h2>
                     By signing up, You agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>, including <a href="#">Cookie Use</a>
-                </p>
-               </div><br><br><br><br><br>
+                </h2>
+               </div><br><br>
     
                <div class="acc">
                 <h3>
@@ -136,33 +171,29 @@
 
     <!--end of form div-->
 
-    <!--beginign of footer div-->
-    <footer>
-        <div class="footer">
-            <div>
-                <ul>
-                    <a href="#"><li>About</li></a>
-                    <a href="#"><li>Help Center</li></a>
-                    <a href="#"><li>Terms and Services</li></a>
-                    <a href="#"><li>Privacy Policy</li></a>
-                    <a href="#"><li>Cookie Policy</li></a>
-                    <a href="#"><li>Accessiablity</li></a>
-                    <a href="#"><li>Ads info</li></a>
-                    <a href="#"><li>Blog</li></a>
-                    <a href="#"><li>Status</li></a>
-                    <a href="#"><li>Careers</li></a>
-                    <a href="#"><li>Brand Resources</li></a>
-                    <a href="#"><li>Advertising</li></a>
-                    <a href="#"><li>Mraketing</li></a>
-                    <a href="#"><li>Twiiter for Business</li></a>
-                    <a href="#"><li>Developers</li></a>
-                    <a href="#"><li>Directory</li></a>
-                    <a href="#"><li>Settings</li></a>
-                    <li> © 2022 Twitter, Inc.</li>
-                </ul>
-            </div>
+    <div class="footer">
+        <div>
+            <ul class="links2">
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Help Center</li></a>
+                <a href="#"><li>Terms and Services</li></a>
+                <a href="#"><li>Privacy Policy</li></a>
+                <a href="#"><li>Cookie Policy</li></a>
+                <a href="#"><li>Accessiablity</li></a>
+                <a href="#"><li>Ads info</li></a>
+                <a href="#"><li>Blog</li></a>
+                <a href="#"><li>Status</li></a>
+                <a href="#"><li>Careers</li></a>
+                <a href="#"><li>Brand Resources</li></a>
+                <a href="#"><li>Advertising</li></a>
+                <a href="#"><li>Mraketing</li></a>
+                <a href="#"><li>Twiiter for Business</li></a>
+                <a href="#"><li>Developers</li></a>
+                <a href="#"><li>Directory</li></a>
+                <a href="#"><li>Settings</li></a>
+                <li> © 2022 Twitter, Inc.</li>
+            </ul>
         </div>
-    </footer>
-    <!--end of footer div-->
+    </div>
 </body>
 </html>
